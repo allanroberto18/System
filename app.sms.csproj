@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18498D6A-869E-4A80-9578-466B3E4A7D9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>app.sms</RootNamespace>
+    <AssemblyName>app.sms</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'app.sms|AnyCPU'">
+    <OutputPath>bin\app.sms\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CryptSharp, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CryptSharpOfficial.2.1.0.0\lib\CryptSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agendas_mensagens.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="appSMSSIMEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>appSMSSIMEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="appSMSSIMEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="appSMSSIMEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>appSMSSIMEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="app_smssimDataSet.cs">
+      <DependentUpon>app_smssimDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="app_smssimDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>app_smssimDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="configuracoes.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contatos.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contatos_mensagens.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dao\AgendasMensagensDAO.cs" />
+    <Compile Include="dao\ContatosMensagensDAO.cs" />
+    <Compile Include="dao\GruposContatosDAO.cs" />
+    <Compile Include="dao\ConfiguracoesDAO.cs" />
+    <Compile Include="dao\GruposMensagensDAO.cs" />
+    <Compile Include="FrmImportarContatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImportarContatos.Designer.cs">
+      <DependentUpon>FrmImportarContatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grupos.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupos_contatos.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="grupos_mensagens.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lib\AppConfig.cs" />
+    <Compile Include="lib\AppSystem.cs" />
+    <Compile Include="lib\DispararMensagensAgendas.cs" />
+    <Compile Include="lib\PortaCOM.cs" />
+    <Compile Include="lib\ShortMessage.cs" />
+    <Compile Include="lib\ShortMessageCollection.cs" />
+    <Compile Include="lib\SMS.cs" />
+    <Compile Include="lib\Validacao.cs" />
+    <Compile Include="mensagens.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mensagens_disparos.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usuarios.cs">
+      <DependentUpon>appSMSSIMEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vo\ContatosMensagensVo.cs" />
+    <Compile Include="vo\ContatoVo.cs" />
+    <Compile Include="vo\GruposContatosVo.cs" />
+    <Compile Include="vo\AgendasMensagensVo.cs" />
+    <Compile Include="vo\GruposMensagensVo.cs" />
+    <Compile Include="vo\ConfiguracoesVO.cs" />
+    <Compile Include="vo\MasterVo.cs" />
+    <Compile Include="vo\MensagemVo.cs" />
+    <Compile Include="vo\GrupoVo.cs" />
+    <Compile Include="vo\UsuarioVo.cs" />
+    <Compile Include="dao\MensagensDAO.cs" />
+    <Compile Include="FrmReportContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportContato.Designer.cs">
+      <DependentUpon>FrmReportContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.Designer.cs">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultContato.Designer.cs">
+      <DependentUpon>FrmConsultContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultGrupo.Designer.cs">
+      <DependentUpon>FrmConsultGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultMensagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultMensagem.Designer.cs">
+      <DependentUpon>FrmConsultMensagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultUsuario.Designer.cs">
+      <DependentUpon>FrmConsultUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContatos.Designer.cs">
+      <DependentUpon>FrmContatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrupos.Designer.cs">
+      <DependentUpon>FrmGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainConsult.Designer.cs">
+      <DependentUpon>FrmMainConsult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMensagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMensagens.Designer.cs">
+      <DependentUpon>FrmMensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dao\ContatosDAO.cs" />
+    <Compile Include="dao\GruposDAO.cs" />
+    <Compile Include="dao\UsuariosDAO.cs" />
+    <Compile Include="MDIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.cs">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConsultGrupo.resx">
+      <DependentUpon>FrmConsultGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImportarContatos.resx">
+      <DependentUpon>FrmImportarContatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportContato.resx">
+      <DependentUpon>FrmReportContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracoes.resx">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultContato.resx">
+      <DependentUpon>FrmConsultContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultUsuario.resx">
+      <DependentUpon>FrmConsultUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContatos.resx">
+      <DependentUpon>FrmContatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGrupos.resx">
+      <DependentUpon>FrmGrupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainConsult.resx">
+      <DependentUpon>FrmMainConsult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMensagens.resx">
+      <DependentUpon>FrmMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="appSMSSIMEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>appSMSSIMEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="appSMSSIMEntities.edmx.diagram">
+      <DependentUpon>appSMSSIMEntities.edmx</DependentUpon>
+    </None>
+    <None Include="app_smssimDataSet.xsc">
+      <DependentUpon>app_smssimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app_smssimDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>app_smssimDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="app_smssimDataSet.xss">
+      <DependentUpon>app_smssimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\contatos.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appSMSSIMEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>appSMSSIMEntities.edmx</DependentUpon>
+      <LastGenOutput>appSMSSIMEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="appSMSSIMEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>appSMSSIMEntities.edmx</DependentUpon>
+      <LastGenOutput>appSMSSIMEntities.cs</LastGenOutput>
+    </Content>
+    <Content Include="app_smssim.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app_smssim_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>app_smssim.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\Database-Upload.ico" />
+    <None Include="Resources\Accept32.png" />
+    <None Include="Resources\login32.png" />
+    <None Include="Resources\trafficlight-red48.png" />
+    <None Include="Resources\trafficlight-green48.png" />
+    <None Include="Resources\text-message2.png" />
+    <None Include="Resources\new-text-message2.png" />
+    <None Include="Resources\addressbook64.png" />
+    <None Include="Resources\schedule64.png" />
+    <None Include="Resources\schedule48.png" />
+    <None Include="Resources\rules64.png" />
+    <None Include="Resources\rules48.png" />
+    <None Include="Resources\maintenance64.png" />
+    <None Include="Resources\maintenance48.png" />
+    <None Include="Resources\login641.png" />
+    <None Include="Resources\login48.png" />
+    <None Include="Resources\keys641.png" />
+    <None Include="Resources\keys48.png" />
+    <None Include="Resources\Add-male-user64.png" />
+    <None Include="Resources\Add-male-user48.png" />
+    <None Include="Resources\Add-event1.png" />
+    <None Include="Resources\Add-event.png" />
+    <None Include="Resources\text-message1.png" />
+    <None Include="Resources\text-message.png" />
+    <None Include="Resources\Addressbook-add48.png" />
+    <None Include="Resources\addressbook128.png" />
+    <None Include="Resources\Calendar48.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\addressbook48.png" />
+    <None Include="Resources\SMS3.png" />
+    <None Include="Resources\send-text-message1.png" />
+    <None Include="Resources\send-message2.png" />
+    <None Include="Resources\send-text-message.png" />
+    <None Include="Resources\Users64.png" />
+    <None Include="Resources\Trash-can64.png" />
+    <None Include="Resources\Sign-up64.png" />
+    <None Include="Resources\Save-as64.png" />
+    <None Include="Resources\Save64.png" />
+    <None Include="Resources\refresh64.png" />
+    <None Include="Resources\Product-documentation64.png" />
+    <None Include="Resources\printer-orange64.png" />
+    <None Include="Resources\paperclip64.png" />
+    <None Include="Resources\Ordering64.png" />
+    <None Include="Resources\Order-history64.png" />
+    <None Include="Resources\order64.png" />
+    <None Include="Resources\Open-folder-warning64.png" />
+    <None Include="Resources\Open-folder-info64.png" />
+    <None Include="Resources\Open-folder-full64.png" />
+    <None Include="Resources\Open-folder-delete64.png" />
+    <None Include="Resources\Open-folder-accept64.png" />
+    <None Include="Resources\Monitoring64.png" />
+    <None Include="Resources\login64.png" />
+    <None Include="Resources\locked64.png" />
+    <None Include="Resources\Link64.png" />
+    <None Include="Resources\keys64.png" />
+    <None Include="Resources\file-explorer64.png" />
+    <None Include="Resources\examples64.png" />
+    <None Include="Resources\edit64.png" />
+    <None Include="Resources\delete2-64.png" />
+    <None Include="Resources\custom-reports64.png" />
+    <None Include="Resources\close64.png" />
+    <None Include="Resources\Clockwise-arrow64.png" />
+    <None Include="Resources\checklist64.png" />
+    <None Include="Resources\catalog64.png" />
+    <None Include="Resources\cancel64.png" />
+    <None Include="Resources\Calendar64.png" />
+    <None Include="Resources\Bookmark64.png" />
+    <None Include="Resources\bell64.png" />
+    <None Include="Resources\attachment64.png" />
+    <None Include="Resources\add1-64.png" />
+    <None Include="Resources\Accept64.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\onebit_341.png" />
+    <None Include="Resources\onebit_33.png" />
+    <None Include="Resources\onebit_17.png" />
+    <None Include="Resources\onebit_15.png" />
+    <None Include="Resources\onebit_14.png" />
+    <None Include="Resources\onebit_41.png" />
+    <None Include="Resources\onebit_34.png" />
+    <None Include="Resources\order-history.ico" />
+    <None Include="Resources\onebit_02.png" />
+    <None Include="Resources\down.ico" />
+    <None Include="Resources\success.ico" />
+    <None Include="Resources\Star-Full.ico" />
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\alarm.ico" />
+    <None Include="Resources\delete.ico" />
+    <None Include="Resources\add1.ico" />
+    <None Include="Resources\cancel.ico" />
+    <None Include="Resources\search-database.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
