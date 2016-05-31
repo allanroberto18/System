@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using Entities.Models;
+using Entities.Services;
 using Libs;
 using Manager;
 
@@ -25,6 +27,20 @@ namespace smssim
 
         public void Login()
         {
+            PortaCOM.GetPorta();
+            string porta = AppConfig.GetValue("porta") == "N" ? "Não foi possível conectar a Porta COM para disparos SMS" : AppConfig.GetValue("porta");
+
+            GSMMannager gsm = new GSMMannager();
+            string sim = gsm.SerialNumber();
+
+            Sims entity = new Sims();
+            entity.SetParams(sim, 1);
+
+            SimsService service = new SimsService();
+            service.Add(entity);
+
+            MessageBox.Show(sim);
+
             if (lblUsuario.Text.Length == 0)
             {
                 FrmLogin frm = new FrmLogin();
@@ -32,8 +48,6 @@ namespace smssim
 
                 if (frm.Usuario != null)
                 {
-                    PortaCOM.GetPorta();
-                    string porta = AppConfig.GetValue("porta") == "N" ? "Não foi possível conectar a Porta COM para disparos SMS" : AppConfig.GetValue("porta");
                     AppConfig.UpdateSetting("user", frm.Id.ToString());
 
                     lblCodigo.Text = "Código: " + frm.Id.ToString();
