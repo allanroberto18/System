@@ -45,7 +45,7 @@
             // FrmMensagensDisparosReporsts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(584, 741);
+            this.ClientSize = new System.Drawing.Size(584, 733);
             this.Name = "FrmMensagensDisparosReporsts";
             this.Text = "Listagem de Disparos da Mensagem";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceRelatorio)).EndInit();

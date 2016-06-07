@@ -476,7 +476,6 @@
             // mnuPortas
             // 
             this.mnuPortas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.mnuPortas.Image = ((System.Drawing.Image)(resources.GetObject("mnuPortas.Image")));
             this.mnuPortas.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuPortas.Name = "mnuPortas";
             this.mnuPortas.Size = new System.Drawing.Size(116, 20);
@@ -563,7 +562,7 @@
             // btnAdicionarPessoas
             // 
             this.btnAdicionarPessoas.BackColor = System.Drawing.Color.White;
-            this.btnAdicionarPessoas.Image = global::smssim.Properties.Resources.Add_male_user48;
+            this.btnAdicionarPessoas.Image = global::smssim.Properties.Resources.Add_Male_User48;
             this.btnAdicionarPessoas.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAdicionarPessoas.Location = new System.Drawing.Point(96, 464);
             this.btnAdicionarPessoas.Name = "btnAdicionarPessoas";
@@ -593,7 +592,7 @@
             // btnAdicionarGrupos
             // 
             this.btnAdicionarGrupos.BackColor = System.Drawing.Color.White;
-            this.btnAdicionarGrupos.Image = global::smssim.Properties.Resources.Addressbook_add48;
+            this.btnAdicionarGrupos.Image = global::smssim.Properties.Resources.addressbook64;
             this.btnAdicionarGrupos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAdicionarGrupos.Location = new System.Drawing.Point(12, 464);
             this.btnAdicionarGrupos.Name = "btnAdicionarGrupos";
@@ -619,6 +618,7 @@
             this.Controls.Add(this.btnDisparar);
             this.Controls.Add(this.btnAdicionarGrupos);
             this.Controls.Add(this.tbMensagem);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMensagens";
             this.Text = "Gerenciar Mensagens";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMensagens_FormClosing);

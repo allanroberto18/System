@@ -33,13 +33,14 @@ namespace smssim
             GSMMannager gsm = new GSMMannager();
             string sim = gsm.SerialNumber();
 
-            Sims entity = new Sims();
-            entity.SetParams(sim, 1);
+            if(!string.IsNullOrEmpty(sim))
+            {
+                Sims entity = new Sims();
+                entity.SetParams(sim, 1);
 
-            SimsService service = new SimsService();
-            service.Add(entity);
-
-            MessageBox.Show(sim);
+                SimsService service = new SimsService();
+                service.Add(entity);
+            }
 
             if (lblUsuario.Text.Length == 0)
             {
@@ -53,6 +54,7 @@ namespace smssim
                     lblCodigo.Text = "Código: " + frm.Id.ToString();
                     lblUsuario.Text = "Usuário: " + frm.Usuario.ToString();
                     lblPorta.Text = "Porta: " + porta;
+                    lblSim.Text = "SIM: " + sim;
 
                     lblLicenca.Text = LicencasManager.GetLicenca();
 

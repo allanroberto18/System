@@ -42,14 +42,10 @@
             this.rpvRelatorio.LocalReport.DataSources.Add(reportDataSource1);
             this.rpvRelatorio.LocalReport.ReportEmbeddedResource = "smssim.rptGrupos.rdlc";
             // 
-            // gruposBindingSource
-            // 
-            //this.gruposBindingSource.DataSource = typeof(smssim.grupos);
-            // 
             // FrmGruposReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(584, 741);
+            this.ClientSize = new System.Drawing.Size(584, 733);
             this.Name = "FrmGruposReports";
             this.Text = "Listagem de Grupos";
             this.Load += new System.EventHandler(this.FrmGruposReports_Load);

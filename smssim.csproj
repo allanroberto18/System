@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5839F3D8-4ECC-4CAD-B841-7B3E801D2F60}</ProjectGuid>
+    <ProjectGuid>{66E745D5-6087-4ACF-A045-0E4523640A41}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>smssim</RootNamespace>
@@ -12,7 +12,6 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,14 +22,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ProductName>SMSSim</ProductName>
-    <PublisherName>Driscom</PublisherName>
-    <SuiteName>SMSSim</SuiteName>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
-    <CreateDesktopShortcut>true</CreateDesktopShortcut>
-    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,33 +47,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>smssim.ico</ApplicationIcon>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>smssim.Program</StartupObject>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>C1B55245BBEC909FEA1AFCD49D29B6A6F7D95BB1</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>smssim_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
-  </PropertyGroup>
-  <PropertyGroup />
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CryptSharp, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\CryptSharpOfficial.2.1.0.0\lib\CryptSharp.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -87,36 +56,18 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="GSMCommServer, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
-      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommServer.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.Runtime.12.0.2.2402\lib\Microsoft.ReportViewer.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="GSMCommShared, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
-      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommShared.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2015.Runtime.12.0.2.2402\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="GSMCommunication, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
-      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommunication.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.DataVisualization\12.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.DataVisualization.DLL</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\12.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
-    </Reference>
-    <Reference Include="PDUConverter, Version=1.21.0.0, Culture=neutral, PublicKeyToken=515d87df384dcc81, processorArchitecture=MSIL">
-      <HintPath>..\packages\GSMComm.1.21.1\lib\PDUConverter.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -134,17 +85,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConfiguracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.Designer.cs">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsultaCodigo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsultaCodigo.Designer.cs">
       <DependentUpon>FrmConsultaCodigo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmContatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContatos.Designer.cs">
+      <DependentUpon>FrmContatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContatosConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContatosConsult.Designer.cs">
+      <DependentUpon>FrmContatosConsult.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmContatosReports.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmContatosReports.Designer.cs">
       <DependentUpon>FrmContatosReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGrupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGrupos.Designer.cs">
+      <DependentUpon>FrmGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGruposConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGruposConsult.Designer.cs">
+      <DependentUpon>FrmGruposConsult.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmGruposContatosReport.cs">
       <SubType>Form</SubType>
@@ -158,78 +139,17 @@
     <Compile Include="FrmGruposReports.Designer.cs">
       <DependentUpon>FrmGruposReports.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmLicenca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLicenca.Designer.cs">
-      <DependentUpon>FrmLicenca.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmMainReports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMainReports.Designer.cs">
-      <DependentUpon>FrmMainReports.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmMensagensDisparosReporsts.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMensagensDisparosReporsts.Designer.cs">
-      <DependentUpon>FrmMensagensDisparosReporsts.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmMensagensReports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMensagensReports.Designer.cs">
-      <DependentUpon>FrmMensagensReports.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FrmConfiguracoes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmConfiguracoes.Designer.cs">
-      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmContatosConsult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmContatosConsult.Designer.cs">
-      <DependentUpon>FrmContatosConsult.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmGruposConsult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmGruposConsult.Designer.cs">
-      <DependentUpon>FrmGruposConsult.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmMensagensConsult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMensagensConsult.Designer.cs">
-      <DependentUpon>FrmMensagensConsult.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmUsuariosConsult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmUsuariosConsult.Designer.cs">
-      <DependentUpon>FrmUsuariosConsult.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmContatos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmContatos.Designer.cs">
-      <DependentUpon>FrmContatos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmGrupos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmGrupos.Designer.cs">
-      <DependentUpon>FrmGrupos.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmImportarContatos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmImportarContatos.Designer.cs">
       <DependentUpon>FrmImportarContatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLicenca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLicenca.Designer.cs">
+      <DependentUpon>FrmLicenca.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -249,17 +169,47 @@
     <Compile Include="FrmMainConsult.Designer.cs">
       <DependentUpon>FrmMainConsult.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMainReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainReports.Designer.cs">
+      <DependentUpon>FrmMainReports.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMensagens.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMensagens.Designer.cs">
       <DependentUpon>FrmMensagens.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMensagensConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMensagensConsult.Designer.cs">
+      <DependentUpon>FrmMensagensConsult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMensagensDisparosReporsts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMensagensDisparosReporsts.Designer.cs">
+      <DependentUpon>FrmMensagensDisparosReporsts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMensagensReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMensagensReports.Designer.cs">
+      <DependentUpon>FrmMensagensReports.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmUsuarios.Designer.cs">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuariosConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuariosConsult.Designer.cs">
+      <DependentUpon>FrmUsuariosConsult.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIPrincipal.cs">
       <SubType>Form</SubType>
@@ -268,35 +218,12 @@
       <DependentUpon>MDIPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmConfiguracoes.resx">
       <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultaCodigo.resx">
       <DependentUpon>FrmConsultaCodigo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmContatosConsult.resx">
-      <DependentUpon>FrmContatosConsult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmGruposConsult.resx">
-      <DependentUpon>FrmGruposConsult.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmGruposContatosReport.resx">
-      <DependentUpon>FrmGruposContatosReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLicenca.resx">
-      <DependentUpon>FrmLicenca.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMensagensDisparosReporsts.resx">
-      <DependentUpon>FrmMensagensDisparosReporsts.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMensagensReports.resx">
-      <DependentUpon>FrmMensagensReports.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmUsuariosConsult.resx">
-      <DependentUpon>FrmUsuariosConsult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmContatos.resx">
       <DependentUpon>FrmContatos.cs</DependentUpon>
@@ -310,8 +237,8 @@
     <EmbeddedResource Include="FrmGruposReports.resx">
       <DependentUpon>FrmGruposReports.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmImportarContatos.resx">
-      <DependentUpon>FrmImportarContatos.cs</DependentUpon>
+    <EmbeddedResource Include="FrmLicenca.resx">
+      <DependentUpon>FrmLicenca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
@@ -327,6 +254,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMensagens.resx">
       <DependentUpon>FrmMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMensagensDisparosReporsts.resx">
+      <DependentUpon>FrmMensagensDisparosReporsts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMensagensReports.resx">
+      <DependentUpon>FrmMensagensReports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
@@ -344,29 +277,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="rptContatos.rdlc" />
     <EmbeddedResource Include="rptGrupos.rdlc" />
     <EmbeddedResource Include="rptGruposContatos.rdlc" />
     <EmbeddedResource Include="rptMensagens.rdlc" />
     <EmbeddedResource Include="rptMensagensDisparos.rdlc" />
+    <None Include="contatos.datasource" />
+    <None Include="grupos.datasource" />
+    <None Include="mensagens.datasource" />
+    <None Include="mensagens_disparos.datasource" />
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\Entities.Models.AgendasMensagens.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.CodigosPromocionais.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Configuracoes.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Contatos.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Contatos1.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.ContatosMensagens.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Grupos.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.GruposContatos.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.GruposContatosReport.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.GruposMensagens.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Licencas.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Mensagens.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.MensagensDisparos.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.MensagensDisparosReport.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Promocoes.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.Usuarios.datasource" />
-    <None Include="Properties\DataSources\Entities.Models.UsuariosAcessos.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -379,116 +300,68 @@
     <None Include="smssim_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cancel48.png" />
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{449a1d9a-dcbe-4fb3-8a0b-e6fef1d01020}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\Libs.csproj">
+      <Project>{f56f9dc4-ee3f-4700-9c11-1d307f1f74c4}</Project>
+      <Name>Libs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manager\Manager.csproj">
+      <Project>{e70fa3a5-2461-4789-a937-0ccd33b20358}</Project>
+      <Name>Manager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\send-message.png" />
+    <None Include="Resources\database-upload64.png" />
+    <None Include="Resources\Clockwise-arrow64.png" />
+    <None Include="Resources\login32.png" />
+    <None Include="Resources\Accept64.png" />
+    <None Include="Resources\checklist64.png" />
+    <None Include="Resources\Add-Male-User48.png" />
+    <None Include="Resources\login64.png" />
+    <None Include="Resources\examples64.png" />
+    <None Include="Resources\Bookmark64.png" />
+    <None Include="Resources\Users64.png" />
+    <None Include="Resources\maintenance64.png" />
+    <None Include="Resources\file-explorer64.png" />
+    <None Include="Resources\cancel64.png" />
+    <None Include="Resources\edit64.png" />
+    <None Include="Resources\text-message.png" />
+    <None Include="Resources\keys64.png" />
+    <None Include="Resources\printer-orange64.png" />
+    <None Include="Resources\locked64.png" />
+    <None Include="Resources\Calendar48.png" />
+    <None Include="Resources\keys48.png" />
+    <None Include="Resources\Order-history64.png" />
+    <None Include="Resources\add164.png" />
+    <None Include="Resources\delete264.png" />
+    <None Include="Resources\cancel48.png" />
+    <None Include="Resources\addressbook64.png" />
+    <None Include="Resources\Accept32.png" />
+    <None Include="Resources\SMS3.png" />
+    <None Include="Resources\%24this.Icon.ico" />
+    <None Include="Resources\sms_converted.ico" />
+    <None Include="Resources\addressbook.ico" />
+    <None Include="Resources\application.ico" />
+    <None Include="Resources\import.ico" />
+    <None Include="Resources\basic-data.ico" />
+    <None Include="Resources\new-message.ico" />
+    <None Include="Resources\Search.ico" />
+    <None Include="Resources\Sign-up.ico" />
     <Content Include="smssim.ico" />
     <Content Include="smssim.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="smssim_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>smssim.mdf</DependentUpon>
     </Content>
     <Content Include="sms_converted.ico" />
-    <None Include="Resources\database.png" />
-    <None Include="Resources\success.ico" />
-    <None Include="Resources\Star-Full.ico" />
-    <None Include="Resources\search-database.ico" />
-    <None Include="Resources\order-history.ico" />
-    <None Include="Resources\down.ico" />
-    <None Include="Resources\delete.ico" />
-    <None Include="Resources\Database-Upload.ico" />
-    <None Include="Resources\cancel.ico" />
-    <None Include="Resources\alarm.ico" />
-    <None Include="Resources\add1.ico" />
-    <None Include="Resources\Users64.png" />
-    <None Include="Resources\users.png" />
-    <None Include="Resources\Trash-can64.png" />
-    <None Include="Resources\trafficlight-red48.png" />
-    <None Include="Resources\trafficlight-green48.png" />
-    <None Include="Resources\text-message2.png" />
-    <None Include="Resources\text-message1.png" />
-    <None Include="Resources\text-message.png" />
-    <None Include="Resources\SMS3.png" />
-    <None Include="Resources\Sign-up64.png" />
-    <None Include="Resources\send-text-message1.png" />
-    <None Include="Resources\send-text-message.png" />
-    <None Include="Resources\send-message2.png" />
-    <None Include="Resources\schedule64.png" />
-    <None Include="Resources\schedule48.png" />
-    <None Include="Resources\Save-as64.png" />
-    <None Include="Resources\Save64.png" />
-    <None Include="Resources\rules64.png" />
-    <None Include="Resources\rules48.png" />
-    <None Include="Resources\refresh64.png" />
-    <None Include="Resources\Product-documentation64.png" />
-    <None Include="Resources\printer-orange64.png" />
-    <None Include="Resources\paperclip64.png" />
-    <None Include="Resources\Ordering64.png" />
-    <None Include="Resources\Order-history64.png" />
-    <None Include="Resources\order64.png" />
-    <None Include="Resources\Open-folder-warning64.png" />
-    <None Include="Resources\Open-folder-info64.png" />
-    <None Include="Resources\Open-folder-full64.png" />
-    <None Include="Resources\Open-folder-delete64.png" />
-    <None Include="Resources\Open-folder-accept64.png" />
-    <None Include="Resources\onebit_341.png" />
-    <None Include="Resources\onebit_41.png" />
-    <None Include="Resources\onebit_34.png" />
-    <None Include="Resources\onebit_33.png" />
-    <None Include="Resources\onebit_17.png" />
-    <None Include="Resources\onebit_15.png" />
-    <None Include="Resources\onebit_14.png" />
-    <None Include="Resources\onebit_02.png" />
-    <None Include="Resources\new-text-message2.png" />
-    <None Include="Resources\Monitoring64.png" />
-    <None Include="Resources\maintenance64.png" />
-    <None Include="Resources\maintenance48.png" />
-    <None Include="Resources\mail.png" />
-    <None Include="Resources\login641.png" />
-    <None Include="Resources\login64.png" />
-    <None Include="Resources\login48.png" />
-    <None Include="Resources\login32.png" />
-    <None Include="Resources\locked64.png" />
-    <None Include="Resources\Link64.png" />
-    <None Include="Resources\keys641.png" />
-    <None Include="Resources\keys64.png" />
-    <None Include="Resources\keys48.png" />
-    <None Include="Resources\file-explorer64.png" />
-    <None Include="Resources\examples64.png" />
-    <None Include="Resources\edit64.png" />
-    <None Include="Resources\edit.png" />
-    <None Include="Resources\delete2-64.png" />
-    <None Include="Resources\custom-reports64.png" />
-    <None Include="Resources\close64.png" />
-    <None Include="Resources\Clockwise-arrow64.png" />
-    <None Include="Resources\checklist64.png" />
-    <None Include="Resources\catalog64.png" />
-    <None Include="Resources\cancel64.png" />
-    <None Include="Resources\Calendar64.png" />
-    <None Include="Resources\Calendar48.png" />
-    <None Include="Resources\Bookmark64.png" />
-    <None Include="Resources\bell64.png" />
-    <None Include="Resources\attachment64.png" />
-    <None Include="Resources\Addressbook-add48.png" />
-    <None Include="Resources\addressbook128.png" />
-    <None Include="Resources\addressbook64.png" />
-    <None Include="Resources\addressbook48.png" />
-    <None Include="Resources\Add-male-user64.png" />
-    <None Include="Resources\Add-male-user48.png" />
-    <None Include="Resources\Add-event1.png" />
-    <None Include="Resources\Add-event.png" />
-    <None Include="Resources\add1-64.png" />
-    <None Include="Resources\Accept64.png" />
-    <None Include="Resources\Accept32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -501,20 +374,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Entities\Entities.csproj">
-      <Project>{5abcc548-ef86-4113-a1e9-a1d90457fe15}</Project>
-      <Name>Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Libs.csproj">
-      <Project>{3048badd-b244-4324-b399-c2e36c95de90}</Project>
-      <Name>Libs</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Manager\Manager.csproj">
-      <Project>{fd40ff22-6720-44eb-a67b-c272a0dfb0b8}</Project>
-      <Name>Manager</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

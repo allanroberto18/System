@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContatos));
             this.lblNome = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -65,14 +66,6 @@
             this.gbxFormulario.Controls.Add(this.lblNome);
             this.gbxFormulario.Location = new System.Drawing.Point(12, 132);
             this.gbxFormulario.Size = new System.Drawing.Size(254, 164);
-            // 
-            // rbInativo
-            // 
-            this.rbInativo.Location = new System.Drawing.Point(97, 19);
-            // 
-            // rbAtivo
-            // 
-            this.rbAtivo.Location = new System.Drawing.Point(42, 19);
             // 
             // gbxStatus
             // 
@@ -193,7 +186,7 @@
             // 
             // btnPesquisarGrupo
             // 
-            this.btnPesquisarGrupo.Image = global::smssim.Properties.Resources.Addressbook_add48;
+            this.btnPesquisarGrupo.Image = global::smssim.Properties.Resources.addressbook64;
             this.btnPesquisarGrupo.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPesquisarGrupo.Location = new System.Drawing.Point(276, 104);
             this.btnPesquisarGrupo.Name = "btnPesquisarGrupo";
@@ -244,6 +237,7 @@
             this.ClientSize = new System.Drawing.Size(677, 361);
             this.Controls.Add(this.tbPrincipal);
             this.Controls.Add(this.btnPesquisarGrupo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmContatos";
             this.Text = "Gerenciar Contatos";
             this.Controls.SetChildIndex(this.gbxStatus, 0);

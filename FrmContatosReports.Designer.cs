@@ -42,14 +42,10 @@
             this.rpvRelatorio.LocalReport.DataSources.Add(reportDataSource1);
             this.rpvRelatorio.LocalReport.ReportEmbeddedResource = "smssim.rptContatos.rdlc";
             // 
-            // contatosBindingSource
-            // 
-            //this.contatosBindingSource.DataSource = typeof(smssim.contatos);
-            // 
             // FrmContatosReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(584, 741);
+            this.ClientSize = new System.Drawing.Size(584, 733);
             this.Name = "FrmContatosReports";
             this.Text = "Listagem de Contatos";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceRelatorio)).EndInit();

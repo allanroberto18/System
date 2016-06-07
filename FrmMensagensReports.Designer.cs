@@ -45,7 +45,7 @@
             // FrmMensagensReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(584, 741);
+            this.ClientSize = new System.Drawing.Size(584, 733);
             this.Name = "FrmMensagensReports";
             this.Text = "Listagem de Mensagens";
             this.Load += new System.EventHandler(this.FrmMensagensReports_Load);

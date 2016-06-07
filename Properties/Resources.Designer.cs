@@ -83,49 +83,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_event {
+        internal static System.Drawing.Bitmap Add_Male_User48 {
             get {
-                object obj = ResourceManager.GetObject("Add-event", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Add_event1 {
-            get {
-                object obj = ResourceManager.GetObject("Add-event1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Add_male_user48 {
-            get {
-                object obj = ResourceManager.GetObject("Add-male-user48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Add_male_user64 {
-            get {
-                object obj = ResourceManager.GetObject("Add-male-user64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap add1 {
-            get {
-                object obj = ResourceManager.GetObject("add1", resourceCulture);
+                object obj = ResourceManager.GetObject("Add_Male_User48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,38 +95,18 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap add1_64 {
             get {
-                object obj = ResourceManager.GetObject("add1-64", resourceCulture);
+                object obj = ResourceManager.GetObject("add1_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap Addressbook_add48 {
+        internal static System.Drawing.Icon addressbook {
             get {
-                object obj = ResourceManager.GetObject("Addressbook-add48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap addressbook128 {
-            get {
-                object obj = ResourceManager.GetObject("addressbook128", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap addressbook48 {
-            get {
-                object obj = ResourceManager.GetObject("addressbook48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("addressbook", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -181,32 +121,22 @@ namespace smssim.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap alarm {
+        internal static System.Drawing.Icon application {
             get {
-                object obj = ResourceManager.GetObject("alarm", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("application", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap attachment64 {
+        internal static System.Drawing.Icon basic_data {
             get {
-                object obj = ResourceManager.GetObject("attachment64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bell64 {
-            get {
-                object obj = ResourceManager.GetObject("bell64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("basic_data", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -226,26 +156,6 @@ namespace smssim.Properties {
         internal static System.Drawing.Bitmap Calendar48 {
             get {
                 object obj = ResourceManager.GetObject("Calendar48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Calendar64 {
-            get {
-                object obj = ResourceManager.GetObject("Calendar64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cancel {
-            get {
-                object obj = ResourceManager.GetObject("cancel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,16 +183,6 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap catalog64 {
-            get {
-                object obj = ResourceManager.GetObject("catalog64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap checklist64 {
             get {
                 object obj = ResourceManager.GetObject("checklist64", resourceCulture);
@@ -295,7 +195,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Clockwise_arrow64 {
             get {
-                object obj = ResourceManager.GetObject("Clockwise-arrow64", resourceCulture);
+                object obj = ResourceManager.GetObject("Clockwise_arrow64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,49 +203,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close64 {
+        internal static System.Drawing.Bitmap database_upload64 {
             get {
-                object obj = ResourceManager.GetObject("close64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap custom_reports64 {
-            get {
-                object obj = ResourceManager.GetObject("custom-reports64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap database {
-            get {
-                object obj = ResourceManager.GetObject("database", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Database_Upload {
-            get {
-                object obj = ResourceManager.GetObject("Database-Upload", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap delete {
-            get {
-                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                object obj = ResourceManager.GetObject("database_upload64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -355,27 +215,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap delete2_64 {
             get {
-                object obj = ResourceManager.GetObject("delete2-64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap down {
-            get {
-                object obj = ResourceManager.GetObject("down", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap edit {
-            get {
-                object obj = ResourceManager.GetObject("edit", resourceCulture);
+                object obj = ResourceManager.GetObject("delete2_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -405,8 +245,18 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap file_explorer64 {
             get {
-                object obj = ResourceManager.GetObject("file-explorer64", resourceCulture);
+                object obj = ResourceManager.GetObject("file_explorer64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon import {
+            get {
+                object obj = ResourceManager.GetObject("import", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -426,26 +276,6 @@ namespace smssim.Properties {
         internal static System.Drawing.Bitmap keys64 {
             get {
                 object obj = ResourceManager.GetObject("keys64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap keys641 {
-            get {
-                object obj = ResourceManager.GetObject("keys641", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Link64 {
-            get {
-                object obj = ResourceManager.GetObject("Link64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,49 +303,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap login48 {
-            get {
-                object obj = ResourceManager.GetObject("login48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap login64 {
             get {
                 object obj = ResourceManager.GetObject("login64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap login641 {
-            get {
-                object obj = ResourceManager.GetObject("login641", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mail {
-            get {
-                object obj = ResourceManager.GetObject("mail", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap maintenance48 {
-            get {
-                object obj = ResourceManager.GetObject("maintenance48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -531,162 +321,12 @@ namespace smssim.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap Monitoring64 {
+        internal static System.Drawing.Icon new_message {
             get {
-                object obj = ResourceManager.GetObject("Monitoring64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap new_text_message2 {
-            get {
-                object obj = ResourceManager.GetObject("new-text-message2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_02 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_02", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_14 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_14", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_15 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_15", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_17 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_17", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_33 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_33", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_34 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_34", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_341 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_341", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap onebit_41 {
-            get {
-                object obj = ResourceManager.GetObject("onebit_41", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Open_folder_accept64 {
-            get {
-                object obj = ResourceManager.GetObject("Open-folder-accept64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Open_folder_delete64 {
-            get {
-                object obj = ResourceManager.GetObject("Open-folder-delete64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Open_folder_full64 {
-            get {
-                object obj = ResourceManager.GetObject("Open-folder-full64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Open_folder_info64 {
-            get {
-                object obj = ResourceManager.GetObject("Open-folder-info64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Open_folder_warning64 {
-            get {
-                object obj = ResourceManager.GetObject("Open-folder-warning64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap order_history {
-            get {
-                object obj = ResourceManager.GetObject("order-history", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("new_message", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -695,37 +335,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Order_history64 {
             get {
-                object obj = ResourceManager.GetObject("Order-history64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap order64 {
-            get {
-                object obj = ResourceManager.GetObject("order64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Ordering64 {
-            get {
-                object obj = ResourceManager.GetObject("Ordering64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap paperclip64 {
-            get {
-                object obj = ResourceManager.GetObject("paperclip64", resourceCulture);
+                object obj = ResourceManager.GetObject("Order_history64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -735,98 +345,18 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap printer_orange64 {
             get {
-                object obj = ResourceManager.GetObject("printer-orange64", resourceCulture);
+                object obj = ResourceManager.GetObject("printer_orange64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap Product_documentation64 {
+        internal static System.Drawing.Icon Search {
             get {
-                object obj = ResourceManager.GetObject("Product-documentation64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap refresh64 {
-            get {
-                object obj = ResourceManager.GetObject("refresh64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rules48 {
-            get {
-                object obj = ResourceManager.GetObject("rules48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rules64 {
-            get {
-                object obj = ResourceManager.GetObject("rules64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Save_as64 {
-            get {
-                object obj = ResourceManager.GetObject("Save-as64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Save64 {
-            get {
-                object obj = ResourceManager.GetObject("Save64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap schedule48 {
-            get {
-                object obj = ResourceManager.GetObject("schedule48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap schedule64 {
-            get {
-                object obj = ResourceManager.GetObject("schedule64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_database {
-            get {
-                object obj = ResourceManager.GetObject("search-database", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Search", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -835,48 +365,28 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap send_message {
             get {
-                object obj = ResourceManager.GetObject("send-message", resourceCulture);
+                object obj = ResourceManager.GetObject("send_message", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap send_message2 {
+        internal static System.Drawing.Icon Sign_up {
             get {
-                object obj = ResourceManager.GetObject("send-message2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Sign_up", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap send_text_message {
+        internal static System.Drawing.Icon sms_converted {
             get {
-                object obj = ResourceManager.GetObject("send-text-message", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap send_text_message1 {
-            get {
-                object obj = ResourceManager.GetObject("send-text-message1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sign_up64 {
-            get {
-                object obj = ResourceManager.GetObject("Sign-up64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("sms_converted", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -893,89 +403,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Star_Full {
-            get {
-                object obj = ResourceManager.GetObject("Star-Full", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap success {
-            get {
-                object obj = ResourceManager.GetObject("success", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap text_message {
             get {
-                object obj = ResourceManager.GetObject("text-message", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap text_message1 {
-            get {
-                object obj = ResourceManager.GetObject("text-message1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap text_message2 {
-            get {
-                object obj = ResourceManager.GetObject("text-message2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap trafficlight_green48 {
-            get {
-                object obj = ResourceManager.GetObject("trafficlight-green48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap trafficlight_red48 {
-            get {
-                object obj = ResourceManager.GetObject("trafficlight-red48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Trash_can64 {
-            get {
-                object obj = ResourceManager.GetObject("Trash-can64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap users {
-            get {
-                object obj = ResourceManager.GetObject("users", resourceCulture);
+                object obj = ResourceManager.GetObject("text_message", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

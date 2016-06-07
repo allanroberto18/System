@@ -50,6 +50,8 @@
             this.btnLicenca = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.btnSair = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnTeste = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblCodigo = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -58,10 +60,10 @@
             this.lblPorta = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblLicenca = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSim = new System.Windows.Forms.ToolStripStatusLabel();
             this.timerCron = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnTeste = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -118,7 +120,7 @@
             // 
             // btnMensagens
             // 
-            this.btnMensagens.Image = global::smssim.Properties.Resources.text_message2;
+            this.btnMensagens.Image = global::smssim.Properties.Resources.SMS3;
             this.btnMensagens.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnMensagens.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnMensagens.Margin = new System.Windows.Forms.Padding(0, 10, 0, 2);
@@ -261,6 +263,20 @@
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 95);
+            // 
+            // btnTeste
+            // 
+            this.btnTeste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnTeste.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnTeste.Name = "btnTeste";
+            this.btnTeste.Size = new System.Drawing.Size(103, 92);
+            this.btnTeste.Text = "Teste de Conexão";
+            this.btnTeste.Click += new System.EventHandler(this.btnTeste_Click);
+            // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -270,7 +286,9 @@
             this.toolStripStatusLabel1,
             this.lblPorta,
             this.toolStripStatusLabel3,
-            this.lblLicenca});
+            this.lblLicenca,
+            this.toolStripStatusLabel4,
+            this.lblSim});
             this.statusStrip1.Location = new System.Drawing.Point(0, 707);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1008, 22);
@@ -323,6 +341,19 @@
             this.lblLicenca.Name = "lblLicenca";
             this.lblLicenca.Size = new System.Drawing.Size(0, 17);
             // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(10, 17);
+            this.toolStripStatusLabel4.Text = "|";
+            // 
+            // lblSim
+            // 
+            this.lblSim.BackColor = System.Drawing.Color.Transparent;
+            this.lblSim.Name = "lblSim";
+            this.lblSim.Size = new System.Drawing.Size(0, 17);
+            // 
             // timerCron
             // 
             this.timerCron.Tick += new System.EventHandler(this.timerCron_Tick);
@@ -339,27 +370,11 @@
             this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 95);
-            // 
-            // btnTeste
-            // 
-            this.btnTeste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnTeste.Image = ((System.Drawing.Image)(resources.GetObject("btnTeste.Image")));
-            this.btnTeste.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnTeste.Name = "btnTeste";
-            this.btnTeste.Size = new System.Drawing.Size(103, 92);
-            this.btnTeste.Text = "Teste de Conexão";
-            this.btnTeste.Click += new System.EventHandler(this.btnTeste_Click);
-            // 
             // MDIPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Controls.Add(this.button1);
@@ -415,6 +430,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripButton btnTeste;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripStatusLabel lblSim;
     }
 }
 

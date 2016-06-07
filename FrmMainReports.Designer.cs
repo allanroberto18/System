@@ -40,14 +40,14 @@
             this.rpvRelatorio.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rpvRelatorio.Location = new System.Drawing.Point(0, 0);
             this.rpvRelatorio.Name = "rpvRelatorio";
-            this.rpvRelatorio.Size = new System.Drawing.Size(584, 741);
+            this.rpvRelatorio.Size = new System.Drawing.Size(584, 733);
             this.rpvRelatorio.TabIndex = 0;
             // 
             // FrmMainReports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 741);
+            this.ClientSize = new System.Drawing.Size(584, 733);
             this.Controls.Add(this.rpvRelatorio);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMainReports";
