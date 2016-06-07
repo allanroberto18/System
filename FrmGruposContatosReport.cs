@@ -34,7 +34,10 @@ namespace smssim
                              {
                                  Id = i.Id,
                                  Contato = i.Contato.Nome,
-                                 Telefone = i.Contato.Telefone
+                                 Sexo = i.Contato.Sexo.ToString(),
+                                 Telefone = i.Contato.Telefone,
+                                 Grupo = i.Grupo.Nome,
+                                 DataNascimento = i.Contato.DataNascimento.Value,
                              }).ToList();
             }
 

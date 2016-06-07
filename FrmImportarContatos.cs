@@ -5,6 +5,7 @@ using System.Data.OleDb;
 using System.Threading;
 using System.Windows.Forms;
 using Entities.Models;
+using Libs;
 using Manager;
 
 namespace smssim
@@ -98,7 +99,8 @@ namespace smssim
         {
             int count = dgvDadosImportados.RowCount;
             int i = 0;
-
+            int j = 0;
+            int l = 0;
             int countColuns = dgvDadosImportados.ColumnCount;
             if (countColuns != 5)
             {
@@ -110,14 +112,20 @@ namespace smssim
 
             foreach (DataGridViewRow item in dgvDadosImportados.Rows)
             {
+                if (l == 190)
+                {
+                    l = 0;
+                    j++;
+                }
+
                 string nome = item.Cells[0].Value.ToString();
                 int sexo = ReturnSexo(item.Cells[1].Value.ToString());
-                string telefone = item.Cells[2].Value.ToString();
+                string telefone = AppSystem.FormatTelefone(item.Cells[2].Value.ToString());
                 string nomeGrupo = item.Cells[3].Value.ToString();
                 string dataNascimento = item.Cells[4].Value.ToString();
 
                 Contatos contato = ContatosManager.ProcessarContatos(nome, sexo, telefone, dataNascimento);
-                Grupos grupo = GruposManager.ProcessarGrupos(nomeGrupo);
+                Grupos grupo = GruposManager.ProcessarGrupos(nomeGrupo + "_" + j);
 
                 GruposContatosManager.ProcessarGruposContatos(contato.Id, grupo.Id);
                 
@@ -133,6 +141,7 @@ namespace smssim
                     backgroundWorker1.ReportProgress(0);
                     return;
                 }
+                l++;
                 i++;
             }
             backgroundWorker1.ReportProgress(100);

@@ -18,7 +18,7 @@ namespace smssim
             switch (value)
             {
                 case 3:
-                    txtParametro.Mask = "(##) ####-#####";
+                    txtParametro.Mask = "(##) #####-####";
                     break;
                 case 4:
                     txtParametro.Mask = "##/##/####";
@@ -70,14 +70,7 @@ namespace smssim
             int filter = (int) cboFilter.SelectedValue;
             if (filter == 3)
             {
-                if (txtParametro.Text.Length == 14)
-                {
-                    txtParametro.Mask = "(##) ####-####";
-                }
-                if (txtParametro.Text.Length == 15)
-                {
-                    txtParametro.Mask = "(##) ####-#####";
-                }
+                txtParametro.Mask = "(##) #####-####";
             }
             
         }
@@ -88,7 +81,7 @@ namespace smssim
             switch (value)
             {
                 case 3:
-                    txtParametro.Mask = "(##) ####-#####";
+                    txtParametro.Mask = "(##) #####-####";
                     break;
                 case 4:
                     txtParametro.Mask = "##/##/####";

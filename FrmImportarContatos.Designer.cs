@@ -57,7 +57,7 @@
             // 
             // btnSelecionarArquivo
             // 
-            this.btnSelecionarArquivo.Image = global::smssim.Properties.Resources.database_upload64;
+            this.btnSelecionarArquivo.Image = global::smssim.Properties.Resources.database_upload32;
             this.btnSelecionarArquivo.Location = new System.Drawing.Point(12, 12);
             this.btnSelecionarArquivo.Name = "btnSelecionarArquivo";
             this.btnSelecionarArquivo.Size = new System.Drawing.Size(184, 67);
@@ -114,7 +114,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Image = global::smssim.Properties.Resources.Accept32;
+            this.btnFechar.Image = global::smssim.Properties.Resources.login32;
             this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnFechar.Location = new System.Drawing.Point(12, 365);
             this.btnFechar.Name = "btnFechar";
@@ -127,7 +127,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Image = global::smssim.Properties.Resources.cancel48;
+            this.btnCancelar.Image = global::smssim.Properties.Resources.cancel32;
             this.btnCancelar.Location = new System.Drawing.Point(388, 12);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(184, 66);

@@ -117,13 +117,10 @@
             // txtTelefone
             // 
             this.txtTelefone.Location = new System.Drawing.Point(15, 81);
-            this.txtTelefone.Mask = "(##) ####-#####";
+            this.txtTelefone.Mask = "(##) #####-####";
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(91, 20);
             this.txtTelefone.TabIndex = 6;
-            this.txtTelefone.Click += new System.EventHandler(this.txtTelefone_Click);
-            this.txtTelefone.Enter += new System.EventHandler(this.txtTelefone_Enter);
-            this.txtTelefone.Leave += new System.EventHandler(this.txtTelefone_Leave);
             // 
             // dgvDados
             // 

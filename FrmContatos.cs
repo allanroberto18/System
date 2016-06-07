@@ -245,34 +245,7 @@ namespace smssim
                 MessageBox.Show("Registro não localizado", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-
-        public void changeMask()
-        {
-            if (txtTelefone.Text.Length == 14)
-            {
-                txtTelefone.Mask = "(##) ####-####";
-            }
-            if (txtTelefone.Text.Length == 15)
-            {
-                txtTelefone.Mask = "(##) ####-#####";
-            }
-        }
-
-        private void txtTelefone_Leave(object sender, EventArgs e)
-        {
-            changeMask();
-        }
-
-        private void txtTelefone_Click(object sender, EventArgs e)
-        {
-            txtTelefone.Mask = "(##) ####-#####";
-        }
-
-        private void txtTelefone_Enter(object sender, EventArgs e)
-        {
-            txtTelefone.Mask = "(##) ####-#####";
-        }
-
+        
         private void dgvDados_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if ((dgvDados.SelectedRows.Count < 0 && e.RowIndex < 0) || dgvDados.CurrentRow == null)

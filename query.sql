@@ -62,22 +62,24 @@ CREATE TABLE [dbo].[usuarios] (
 
 CREATE TABLE [dbo].[sims]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [sim] NVARCHAR(50) NOT NULL, 
-    [quantidade] INT NOT NULL, 
-    [created] DATETIME NULL, 
-    [updated] DATETIME NULL, 
-    [status] INT NOT NULL DEFAULT 1
+	[Id]			INT IDENTITY (1, 1) NOT NULL,
+    [sim]			NVARCHAR	(50) NOT NULL, 
+    [quantidade]	INT			NOT NULL, 
+    [created]		DATETIME	NULL, 
+    [updated]		DATETIME	NULL, 
+    [status]		INT			NOT NULL DEFAULT 1,
+	PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-CREATE TABLE [dbo].[usuarios_acessos] (
-    [Id]         INT      IDENTITY (1, 1) NOT NULL,
-    [usuario_id] INT      NOT NULL,
-    [created]    DATETIME NULL,
-    [updated]    DATETIME NULL,
-    [status]     INT      CONSTRAINT [DF_usuarios_acessos_status] DEFAULT ((1)) NOT NULL,
-    CONSTRAINT [PK_usuarios_acessos] PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FK_usuarios_acessos_to_usuarios] FOREIGN KEY ([usuario_id]) REFERENCES [dbo].[usuarios] ([Id])
+CREATE TABLE [dbo].[sims] (
+    [Id]         INT IDENTITY (1, 1) NOT NULL,
+    [sim]        NVARCHAR (50) NOT NULL,
+    [quantidade] INT           NOT NULL,
+	[data_atual] DATE		   NOT NULL,
+    [created]    DATETIME      NULL,
+    [updated]    DATETIME      NULL,
+    [status]     INT           DEFAULT ((1)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
 CREATE TABLE [dbo].[grupos_contatos] (

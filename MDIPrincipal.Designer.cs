@@ -50,8 +50,6 @@
             this.btnLicenca = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.btnSair = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnTeste = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblCodigo = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -92,9 +90,7 @@
             this.toolStripSeparator5,
             this.btnLicenca,
             this.toolStripSeparator8,
-            this.btnSair,
-            this.toolStripSeparator10,
-            this.btnTeste});
+            this.btnSair});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1008, 95);
@@ -263,20 +259,6 @@
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 95);
-            // 
-            // btnTeste
-            // 
-            this.btnTeste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.btnTeste.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnTeste.Name = "btnTeste";
-            this.btnTeste.Size = new System.Drawing.Size(103, 92);
-            this.btnTeste.Text = "Teste de Conexão";
-            this.btnTeste.Click += new System.EventHandler(this.btnTeste_Click);
-            // 
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -361,9 +343,9 @@
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(320, 503);
+            this.button1.Location = new System.Drawing.Point(12, 612);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(326, 174);
+            this.button1.Size = new System.Drawing.Size(170, 82);
             this.button1.TabIndex = 3;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -428,8 +410,6 @@
         private System.Windows.Forms.ToolStripButton btnCodigoPromocional;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripButton btnTeste;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.ToolStripStatusLabel lblSim;
     }

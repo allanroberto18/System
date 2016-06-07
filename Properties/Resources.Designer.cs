@@ -113,6 +113,16 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addressbook48 {
+            get {
+                object obj = ResourceManager.GetObject("addressbook48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap addressbook64 {
             get {
                 object obj = ResourceManager.GetObject("addressbook64", resourceCulture);
@@ -163,6 +173,16 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancel32 {
+            get {
+                object obj = ResourceManager.GetObject("cancel32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancel48 {
             get {
                 object obj = ResourceManager.GetObject("cancel48", resourceCulture);
@@ -196,6 +216,26 @@ namespace smssim.Properties {
         internal static System.Drawing.Bitmap Clockwise_arrow64 {
             get {
                 object obj = ResourceManager.GetObject("Clockwise_arrow64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap database_upload32 {
+            get {
+                object obj = ResourceManager.GetObject("database-upload32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap database_upload48 {
+            get {
+                object obj = ResourceManager.GetObject("database-upload48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

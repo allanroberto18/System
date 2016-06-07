@@ -154,7 +154,7 @@
             // txtContato
             // 
             this.txtContato.BackColor = System.Drawing.SystemColors.Window;
-            this.txtContato.Location = new System.Drawing.Point(238, 37);
+            this.txtContato.Location = new System.Drawing.Point(238, 36);
             this.txtContato.Name = "txtContato";
             this.txtContato.ReadOnly = true;
             this.txtContato.Size = new System.Drawing.Size(310, 20);
@@ -175,7 +175,7 @@
             // txtId
             // 
             this.txtId.BackColor = System.Drawing.SystemColors.Window;
-            this.txtId.Location = new System.Drawing.Point(15, 37);
+            this.txtId.Location = new System.Drawing.Point(15, 36);
             this.txtId.Name = "txtId";
             this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(60, 20);
