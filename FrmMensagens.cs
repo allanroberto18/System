@@ -962,7 +962,7 @@ namespace smssim
         public void GetCount()
         {
             MensagensDisparosService mdService = new MensagensDisparosService();
-            lblMensagensDisparadas.Text = mdService.ReturnCountDisparos().ToString();
+            lblMensagensDisparadas.Text = AppConfig.GetValue("disparos");
 
             if (!String.IsNullOrEmpty(txt_Id.Text))
             {

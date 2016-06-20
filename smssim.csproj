@@ -372,6 +372,7 @@
     <None Include="Resources\database-upload32.png" />
     <None Include="Resources\cancel32.png" />
     <None Include="Resources\addressbook48.png" />
+    <None Include="Resources\sms-sim.png" />
     <Content Include="smssim.ico" />
     <Content Include="smssim.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

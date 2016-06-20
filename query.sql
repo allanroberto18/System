@@ -60,17 +60,6 @@ CREATE TABLE [dbo].[usuarios] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-CREATE TABLE [dbo].[sims]
-(
-	[Id]			INT IDENTITY (1, 1) NOT NULL,
-    [sim]			NVARCHAR	(50) NOT NULL, 
-    [quantidade]	INT			NOT NULL, 
-    [created]		DATETIME	NULL, 
-    [updated]		DATETIME	NULL, 
-    [status]		INT			NOT NULL DEFAULT 1,
-	PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
 CREATE TABLE [dbo].[sims] (
     [Id]         INT IDENTITY (1, 1) NOT NULL,
     [sim]        NVARCHAR (50) NOT NULL,
@@ -92,6 +81,18 @@ CREATE TABLE [dbo].[grupos_contatos] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_grupos_contatos_to_grupos] FOREIGN KEY ([grupo_id]) REFERENCES [dbo].[grupos] ([Id]),
     CONSTRAINT [FK_grupos_contatos_to_contatos] FOREIGN KEY ([contato_id]) REFERENCES [dbo].[contatos] ([Id])
+);
+
+CREATE TABLE [dbo].[grupos_mensagens] (
+    [Id]          INT      IDENTITY (1, 1) NOT NULL,
+    [grupo_id]	  INT      NOT NULL,
+    [mensagem_id] INT      NOT NULL,
+    [created]     DATETIME NULL,
+    [updated]     DATETIME NULL,
+    [status]      INT      DEFAULT ((1)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_grupos_mensagens_to_grupos] FOREIGN KEY ([grupo_id]) REFERENCES [dbo].[grupos] ([Id]),
+    CONSTRAINT [FK_grupos_mensagens_to_mensagens] FOREIGN KEY ([mensagem_id]) REFERENCES [dbo].[mensagens] ([Id])
 );
 
 CREATE TABLE [dbo].[contatos_mensagens] (

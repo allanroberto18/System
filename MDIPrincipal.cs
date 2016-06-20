@@ -31,16 +31,7 @@ namespace smssim
             string porta = AppConfig.GetValue("porta") == "N" ? "Não foi possível conectar a Porta COM para disparos SMS" : AppConfig.GetValue("porta");
 
             GSMMannager gsm = new GSMMannager();
-            string sim = gsm.SerialNumber();
-
-            if(!string.IsNullOrEmpty(sim))
-            {
-                Sims entity = new Sims();
-                entity.SetParams(sim, 1);
-
-                SimsService service = new SimsService();
-                service.Add(entity);
-            }
+            gsm.SerialNumber();
 
             if (lblUsuario.Text.Length == 0)
             {
@@ -54,7 +45,7 @@ namespace smssim
                     lblCodigo.Text = "Código: " + frm.Id.ToString();
                     lblUsuario.Text = "Usuário: " + frm.Usuario.ToString();
                     lblPorta.Text = "Porta: " + porta;
-                    lblSim.Text = "SIM: " + sim;
+                    lblSim.Text = "SIM: " + AppConfig.GetValue("sim");
 
                     lblLicenca.Text = LicencasManager.GetLicenca();
 
@@ -75,7 +66,6 @@ namespace smssim
                             }
                         }
                     }
-                    
                     frm.Close();
                 }
                 else
@@ -199,9 +189,9 @@ namespace smssim
         private void btnTeste_Click(object sender, EventArgs e)
         {
             GSMMannager gsm = new GSMMannager();
-            string result = gsm.SerialNumber();
+            gsm.SerialNumber();
 
-            MessageBox.Show(result);
+            MessageBox.Show(AppConfig.GetValue("sim"));
         }
 
         private void button2_Click(object sender, EventArgs e)

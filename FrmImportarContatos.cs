@@ -99,8 +99,9 @@ namespace smssim
         {
             int count = dgvDadosImportados.RowCount;
             int i = 0;
-            int j = 0;
-            int l = 0;
+            
+            // int j = 0;
+            // int l = 0;
             int countColuns = dgvDadosImportados.ColumnCount;
             if (countColuns != 5)
             {
@@ -112,11 +113,11 @@ namespace smssim
 
             foreach (DataGridViewRow item in dgvDadosImportados.Rows)
             {
-                if (l == 190)
-                {
-                    l = 0;
-                    j++;
-                }
+                // if (l == 190)
+                // {
+                //    l = 0;
+                //    j++;
+                //}
 
                 string nome = item.Cells[0].Value.ToString();
                 int sexo = ReturnSexo(item.Cells[1].Value.ToString());
@@ -125,7 +126,8 @@ namespace smssim
                 string dataNascimento = item.Cells[4].Value.ToString();
 
                 Contatos contato = ContatosManager.ProcessarContatos(nome, sexo, telefone, dataNascimento);
-                Grupos grupo = GruposManager.ProcessarGrupos(nomeGrupo + "_" + j);
+                // Grupos grupo = GruposManager.ProcessarGrupos(nomeGrupo + "_" + j);
+                Grupos grupo = GruposManager.ProcessarGrupos(nomeGrupo);
 
                 GruposContatosManager.ProcessarGruposContatos(contato.Id, grupo.Id);
                 
@@ -141,7 +143,7 @@ namespace smssim
                     backgroundWorker1.ReportProgress(0);
                     return;
                 }
-                l++;
+                // l++;
                 i++;
             }
             backgroundWorker1.ReportProgress(100);

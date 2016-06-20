@@ -397,9 +397,9 @@
             this.toolStripStatusLabel4,
             this.lblSelecionarPorta,
             this.mnuPortas});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 558);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 564);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(784, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(813, 22);
             this.statusStrip1.TabIndex = 14;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -592,7 +592,7 @@
             // btnAdicionarGrupos
             // 
             this.btnAdicionarGrupos.BackColor = System.Drawing.Color.White;
-            this.btnAdicionarGrupos.Image = global::smssim.Properties.Resources.addressbook64;
+            this.btnAdicionarGrupos.Image = global::smssim.Properties.Resources.addressbook48;
             this.btnAdicionarGrupos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAdicionarGrupos.Location = new System.Drawing.Point(12, 464);
             this.btnAdicionarGrupos.Name = "btnAdicionarGrupos";
@@ -606,7 +606,7 @@
             // FrmMensagens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(784, 580);
+            this.ClientSize = new System.Drawing.Size(813, 586);
             this.Controls.Add(this.btnPararEnvio);
             this.Controls.Add(this.gbxPromocao);
             this.Controls.Add(this.statusStrip1);

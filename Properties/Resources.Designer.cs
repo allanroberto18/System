@@ -433,6 +433,16 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sms_sim {
+            get {
+                object obj = ResourceManager.GetObject("sms-sim", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SMS3 {
             get {
                 object obj = ResourceManager.GetObject("SMS3", resourceCulture);
