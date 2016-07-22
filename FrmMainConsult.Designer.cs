@@ -118,7 +118,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Image = global::smssim.Properties.Resources.delete2_64;
+            this.btnFechar.Image = global::smssim.Properties.Resources.delete264;
             this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnFechar.Location = new System.Drawing.Point(391, 212);
             this.btnFechar.Name = "btnFechar";

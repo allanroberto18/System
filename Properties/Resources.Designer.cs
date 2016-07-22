@@ -93,9 +93,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap add1_64 {
+        internal static System.Drawing.Bitmap add164 {
             get {
-                object obj = ResourceManager.GetObject("add1_64", resourceCulture);
+                object obj = ResourceManager.GetObject("add164", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -225,7 +225,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap database_upload32 {
             get {
-                object obj = ResourceManager.GetObject("database-upload32", resourceCulture);
+                object obj = ResourceManager.GetObject("database_upload32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,7 +235,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap database_upload48 {
             get {
-                object obj = ResourceManager.GetObject("database-upload48", resourceCulture);
+                object obj = ResourceManager.GetObject("database_upload48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace smssim.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete2_64 {
+        internal static System.Drawing.Bitmap delete264 {
             get {
-                object obj = ResourceManager.GetObject("delete2_64", resourceCulture);
+                object obj = ResourceManager.GetObject("delete264", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -435,7 +435,7 @@ namespace smssim.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap sms_sim {
             get {
-                object obj = ResourceManager.GetObject("sms-sim", resourceCulture);
+                object obj = ResourceManager.GetObject("sms_sim", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

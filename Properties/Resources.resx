@@ -118,44 +118,77 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cancel64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Accept32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Accept32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Accept64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Accept64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="database-upload32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database-upload32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sign_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sign-up.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="addressbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new-message.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="addressbook48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Clockwise_arrow64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Clockwise-arrow64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="addressbook64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Users64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Users64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Add_Male_User48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add-Male-User48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="database-upload48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database-upload48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="locked64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\locked64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="basic_data" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basic-data.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Search.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bookmark64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bookmark64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="printer_orange64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\printer-orange64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Calendar48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cancel48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Accept64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Accept64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cancel64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checklist64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checklist64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clockwise_arrow64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clockwise-arrow64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_upload32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database-upload32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_upload48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database-upload48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_upload64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database-upload64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="examples64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\examples64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_explorer64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-explorer64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="keys48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\keys48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,68 +196,11 @@
   <data name="keys64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\keys64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sms_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\sms_converted.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="addressbook48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addressbook48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Order_history64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Order-history64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="basic_data" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\basic-data.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete2_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete264.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="database_upload64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database-upload64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SMS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SMS3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="send_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\send-message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add1_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add_Male_User48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Add-Male-User48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="examples64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\examples64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="checklist64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\checklist64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Accept32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Accept32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="addressbook64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addressbook64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="application" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\application.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Calendar48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Calendar48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="import" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\import.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cancel32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="locked64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locked64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="file_explorer64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\file-explorer64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="addressbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addressbook.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,13 +208,37 @@
   <data name="maintenance64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maintenance64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="new_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-message.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Order_history64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Order-history64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_orange64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer-orange64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="send_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send-message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sign_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sign-up.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMS3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMS3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms_converted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms_converted.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms_sim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms-sim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="text_message" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\text-message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bookmark64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bookmark64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sms-sim" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sms-sim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Users64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Users64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

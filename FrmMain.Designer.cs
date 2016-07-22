@@ -90,7 +90,7 @@
             // 
             // btnNovo
             // 
-            this.btnNovo.Image = global::smssim.Properties.Resources.add1_64;
+            this.btnNovo.Image = global::smssim.Properties.Resources.add164;
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Margin = new System.Windows.Forms.Padding(0, 10, 0, 2);
             this.btnNovo.Name = "btnNovo";
@@ -186,7 +186,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Image = global::smssim.Properties.Resources.delete2_64;
+            this.btnExcluir.Image = global::smssim.Properties.Resources.delete264;
             this.btnExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(0, 10, 0, 2);
             this.btnExcluir.Name = "btnExcluir";

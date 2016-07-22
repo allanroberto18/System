@@ -156,3 +156,41 @@ CREATE TABLE [dbo].[codigos_promocionais] (
     CONSTRAINT [FK_codigos_promocionais_to_contato] FOREIGN KEY ([contato_id]) REFERENCES [dbo].[contatos] ([Id])
 );
 
+CREATE TABLE [dbo].[usuarios_acessos](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[usuario_id] [int] NOT NULL,
+	[created] [datetime] NULL,
+	[updated] [datetime] NULL,
+	[status] [int] NOT NULL CONSTRAINT [DF_usuarios_acessos_status]  DEFAULT ((1)),
+ CONSTRAINT [PK_usuarios_acessos] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[usuarios_acessos]  WITH CHECK ADD  CONSTRAINT [FK_usuarios_acessos_to_usuarios] FOREIGN KEY([usuario_id])
+REFERENCES [dbo].[usuarios] ([Id])
+GO
+
+ALTER TABLE [dbo].[usuarios_acessos] CHECK CONSTRAINT [FK_usuarios_acessos_to_usuarios]
+GO
+
+INSERT INTO [dbo].[usuarios]
+       ([nome] ,[email] ,[senha] ,[created] ,[updated] ,[status])
+     VALUES
+        ('Allan Roberto','master@smssim.com','$2a$06$tGOyq9eykMcYpz3tgLxES.g9CEzBB2siuSPzlxxCYxBmTgYYf0yny', '2015-12-10 13:03:12.000', '2015-12-10 13:03:12.000', 1)
+GO
+
+INSERT INTO [dbo].[usuarios]
+       ([nome] ,[email] ,[senha] ,[created] ,[updated] ,[status])
+     VALUES
+        ('Usuário do Sistema','smssim@smssim.com','$2a$06$DIfxyg6nEkA/7VFf2jQZx.h3GMfnfLf.8VvkcXbqiHv8iPGuO.fSa', '2015-12-10 13:03:12.000', '2016-02-11 12:32:53.000', 1)
+GO
+
+INSERT INTO [dbo].[mensagens]
+           ([tipo] ,[mensagem] ,[sexo] ,[created] ,[updated] ,[status])
+     VALUES
+           (1, 'Feliz Aniversário', 3, '2016-06-07 14:03:04.173', '2016-06-07 14:03:04.173', 1)
+GO
